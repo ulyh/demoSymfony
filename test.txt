@@ -1,0 +1,23 @@
+PHPUnit 9.5.7 by Sebastian Bergmann and contributors.
+
+Testing App\Tests\Controller\ProduitControllerKernelTest
+Produit Controller Kernel (App\Tests\Controller\ProduitControllerKernel)
+ ✔ Something
+ ✔ Produit repository
+ ✔ FindByName ProduitRepository
+
+Time: 00:04.650, Memory: 52.00 MB
+
+OK (3 tests, 4 assertions)
+
+Remaining indirect deprecation notices (3)
+
+  1x: The "DAMA\DoctrineTestBundle\Doctrine\DBAL\AbstractStaticDriverV2" class implements "Doctrine\DBAL\Driver\ExceptionConverterDriver" that is deprecated.
+    1x in PHPUnitExtension::executeBeforeFirstTest from DAMA\DoctrineTestBundle\PHPUnit
+
+  1x: Since symfony/security-bundle 5.3: The "Symfony\Component\Security\Core\Encoder\UserPasswordEncoderInterface" service is deprecated, use "Symfony\Component\PasswordHasher\Hasher\UserPasswordHasherInterface" instead. It is being referenced by the "App\Controller\SecurityController" service.
+    1x in ProduitControllerKernelTest::testSomething from App\Tests\Controller
+
+  1x: Since symfony/security-bundle 5.3: The "Symfony\Component\Security\Core\Encoder\UserPasswordEncoderInterface" service is deprecated, use "Symfony\Component\PasswordHasher\Hasher\UserPasswordHasherInterface" instead. It is being referenced by the "App\DataFixtures\UserFixtures" service.
+    1x in ProduitControllerKernelTest::testSomething from App\Tests\Controller
+
